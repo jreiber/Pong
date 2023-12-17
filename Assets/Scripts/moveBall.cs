@@ -49,6 +49,8 @@ public class moveBall : MonoBehaviour
         player1Score = 0;
         player2Score = 0;
 
+        updateScore();
+
         scoreText.gameObject.SetActive(true);
         titleTextContainer.SetActive(false);
         endGameTextContainer.SetActive(false);
